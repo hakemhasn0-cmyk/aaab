@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تبرعات قرية الشغور</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>تبرعات قرية الشغور</h1>
+    <p>لإصلاح الطرق في القرية</p>
+    <p id="quran">"وَمَا تُنفِقُوا مِن خَيْرٍ فَلِأَنفُسِكُمْ..."</p>
+
+    <div class="form">
+      <input type="text" id="name" placeholder="اسمك">
+      <input type="number" id="amount" placeholder="المبلغ بالليرة التركية">
+      <button onclick="addDonation()">تبرع</button>
+    </div>
+
+    <h2>قائمة المتبرعين</h2>
+    <div id="donorsList"></div>
+
+    <h2>المجموع الكلي: <span id="totalAmount">0</span> ليرة تركية</h2>
+    <p id="thanks"></p>
+  </div>
+
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

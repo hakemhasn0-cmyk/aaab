@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f8ff;
+  color: #333;
+  padding: 10px;
+}
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #aaa;
+}
+input {
+  padding: 10px;
+  margin: 5px;
+  width: 40%;
+}
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.donor-card {
+  background: #e6f7ff;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 5px;
+}
